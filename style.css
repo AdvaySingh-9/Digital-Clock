@@ -1,0 +1,104 @@
+
+body {
+  background-color: black;
+  background-image: url("images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,100&family=Orbitron:wght@400..900&family=VT323&display=swap');
+
+@media screen and (max-width: 769px) {
+  body {
+    background-image: none;
+    background: linear-gradient(45deg, red, blue);
+  }
+  span {
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.5%);
+    backdrop-filter: blur(5px);
+    font-family: 'Lucida Console', monospace;
+}
+}
+
+/* ...existing code... */
+.bg-clock {
+  background-color: hsl(0, 0, 0.5);
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+.clock-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+/* ...existing code... */
+span {
+  width: 100%;
+  background-color: hsl(0, 0%, 100%, 0.5%);
+  backdrop-filter: blur(5px);
+  font-family: Doto,
+}
+input,
+label {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%, 0.5%);
+  backdrop-filter: blur(5px);
+  font-family: "Courier New", Courier, monospace;
+}
+h3 {
+  color: white;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container2 {
+  position: absolute;
+  top: 20px; /* adjust as needed */
+  left: 20px; /* this pushes it very close to the left edge */
+  text-align: left;
+  background-color: hsla(0, 0%, 100%, 0.1); /* optional blur effect */
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  width: 300px; /* adjust width as needed */
+  border-radius: 10px;
+  display: none;
+}
+.dropdown {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dropdown:hover .container2 {
+  display: block;
+}
+footer {
+  justify-content: center;
+  background-color: rgb(46, 46, 46);
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: blue;
+}
+footer a:visited {
+  color: blue;
+}
