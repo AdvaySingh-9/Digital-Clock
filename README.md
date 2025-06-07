@@ -1,6 +1,6 @@
 # Digital-Clock
 A digital clock that tells time for 14 time zones.
-[Website]([https://clock](https://clock-as.netlify.app))
+[Website](https://clock-as.netlify.app)
 
 # Technologies Used
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
